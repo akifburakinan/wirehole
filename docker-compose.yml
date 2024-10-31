@@ -59,7 +59,7 @@ services:
       - WG_PORT=51820
       - WG_DEFAULT_ADDRESS=10.3.0.x
       - WG_DEFAULT_DNS=10.2.0.100
-      # - WG_ALLOWED_IPS=192.168.0.0/24,10.2.0.0/24,10.3.0.0/24 # If you want only LAN access open this.
+     - WG_ALLOWED_IPS=192.168.0.0/24,10.2.0.0/24,10.3.0.0/24 # If you want only LAN access open this.
 
     image: weejewel/wg-easy:7
     container_name: wg-easy
